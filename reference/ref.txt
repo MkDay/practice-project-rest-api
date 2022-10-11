@@ -1,0 +1,17 @@
+* this project we practice to work with CRUD operations.
+* we don't use database here. just an array to work with.
+* we use a package uuid to assign an unique id into each user.
+* since we don't use a database we had to work with array methods like 
+    - array.push() : add a new user into the user array
+    - array.find() : find a specific user from the user array
+    - array.filter() : filter out a specific user after deleting that user
+    - spread operator : add an unique id using 'uuidv4()' method into each user.
+        users.push({ ...user, id: uuidv4()});
+
+* difference between PATCH & PUT:
+    - PATCH : update some specific data only
+    - PUT : override existing data with new data
+
+* why we use Postman?
+    - because browser can perform GET request only.
+    - postman can perform every kind of requests.
